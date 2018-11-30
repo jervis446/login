@@ -1,0 +1,55 @@
+{% include "header.html" %}
+{% block content %}
+  {% load static %}
+  
+
+<!DOCTYPE >
+<html>
+<head>
+  {% load static %}
+  
+  <style type="text/css">
+  .hone
+{
+  color:white;
+  font-family: 'Lora', serif;
+  font-size:46px
+}
+    body
+        {
+background-image:url("https://getmyuni.azureedge.net/college-images-test/jaypee-university-of-engineering-and-technology-guna/c959eb3e5c1e4841b0434047d75987fb.jpeg");            
+background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center
+        }
+  </style>
+<title>Home</title>
+ <link rel="stylesheet" type="text/css" href={% static 'style.css' %}> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body >
+
+
+<div align="center">
+<h5 class ="hone">JUETConnect</h5>
+<br></br><br></br><br></br>
+&nbsp;&nbsp;&nbsp;<button  class="button button1 " onclick="location.href='https://floating-basin-49777.herokuapp.com/'"><b>ConnectHub</b></button>
+<br></br>
+&nbsp;&nbsp;&nbsp;<button class="button button1 " onclick="location.href='https://floating-basin-49777.herokuapp.com/'" ><b>NewsHub</b></button>
+<br></br>
+
+</div>
+</body>
+
+
+
+</html>
+
+
+{% endblock %}
